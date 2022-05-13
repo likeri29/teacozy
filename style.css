@@ -1,0 +1,160 @@
+body {
+    background: #000;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    opacity: 0.9;
+}
+
+li {
+    list-style: none;
+}
+
+/* Header */
+
+header {
+    display: flex;
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.logo {
+    height: 50px;
+    margin-left: 10px;
+}
+
+header li {
+    display: inline-flex;
+    margin: 2px;
+    text-decoration: underline;
+}
+
+/* MAIN */
+
+/* mission */
+
+.mission {
+    display: flex;
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg?_gl=1*wp9bq1*_ga*Njk0MzI5NjEuMTY0MzI3NjM5NQ..*_ga_3LRZM6TM9L*MTY1MjQzMjA4Mi4xMTYuMS4xNjUyNDMzMDQ2LjU3");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 700px;
+    width: 1200px;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+}
+
+.missiontext {
+    background-color: #000;
+    align-items: center;
+    width: 1200px;
+    text-align: center;
+}
+
+/* Tea of the Month */
+#featured-tea {
+    width: 75%;
+    max-width: 1000px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 70px;
+    margin: 0 auto 70px auto;
+}
+
+.teatext {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.teamonth {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+figure {
+    width: 300px;
+    height: 200px;
+    overflow: hidden;
+    margin: 1%;
+}
+
+figure img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+figcaption {
+    margin-top: 3.35%;
+    text-align: center;
+}
+
+/* Locations */
+
+#locations {
+    width: 1200px;
+    height: 500px;
+    display: flex;
+    flex-flow: column;
+    justify-content: left;
+    align-items: center;
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg?_gl=1*1e7of8u*_ga*Njk0MzI5NjEuMTY0MzI3NjM5NQ..*_ga_3LRZM6TM9L*MTY1MjQ0NDYzMy4xMTkuMS4xNjUyNDQ2MDQ0LjI.");
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+}
+
+.locationtitle {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.locationcon {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    opacity: 1;
+}
+
+.location {
+    margin-top: 15px;
+    margin-right: 40px;
+    width: 300px;
+    background-color: black;
+    text-align: center;
+    line-height: 150%;
+}
+
+
+/* Contact */
+#contact {
+    /* height: 200px; */
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+/* FOOTER */
+
+footer {
+    display: flex;
+    justify-content: left;
+}
+
+footer p {
+    margin-left: 20px;
+}
+
