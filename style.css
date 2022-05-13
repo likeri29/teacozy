@@ -32,6 +32,10 @@ header li {
     text-decoration: underline;
 }
 
+header li a {
+    color: seashell;
+}
+
 /* MAIN */
 
 /* mission */
